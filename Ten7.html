@@ -5624,9 +5624,9 @@ button.stat.is-progress.is-pressable:hover span {
      Organizations. */
 
   var GITHUB_OWNER = "social-monkey-codeft"; // <-- fill in
-  var GITHUB_REPO = "Ten7-Planner"; // <-- fill in
+  var GITHUB_REPO = "Ten7-Data"; // <-- the PRIVATE repo holding schedule.json (separate from where this file lives)
   var GITHUB_BRANCH = "main"; // <-- change if your default branch differs
-  var GITHUB_PATH = "data/schedule.json"; // <-- where the shared schedule lives in the repo
+  var GITHUB_PATH = "schedule.json"; // <-- where the shared schedule lives in that repo
   var GITHUB_CONFIGURED = GITHUB_OWNER.indexOf("YOUR-") !== 0 && GITHUB_REPO.indexOf("YOUR-") !== 0;
   var GH_POLL_MS = 8000; // how often everyone checks GitHub for changes made elsewhere
   var GH_TOKEN_KEY = "dayblocks.gh.token";
